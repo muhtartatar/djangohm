@@ -1,0 +1,12 @@
+<form method="post">
+  {% csrf_token %}
+  <label>Choose a course:</label>
+  <br>
+  <input type="radio" id="based" name="course" value="based" required>
+  <label for="based">Based Course</label>
+  <br>
+  <input type="radio" id="pro" name="course" value="pro" required>
+  <label for="pro">Pro Course</label>
+  <br>
+  <input type="submit" value="Submit">
+</form>

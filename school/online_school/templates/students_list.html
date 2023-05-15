@@ -1,0 +1,13 @@
+<ul>
+  {% for user in users %}
+    <li>
+      Name: {{ user.name }}
+      <br>
+      Language: {{ user.language }}
+      <br>
+      Course: {{ user.course }}
+      <br>
+      Grade: {{ user.grade }}
+    </li>
+  {% endfor %}
+</ul>
